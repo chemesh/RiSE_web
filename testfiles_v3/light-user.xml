@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rizpa-stock-exchange-descriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RSE-V3.xsd">
+	<rse-stocks>
+		<rse-stock>
+			<rse-symbol>MSFT</rse-symbol>
+			<rse-company-name>Microsoft</rse-company-name>
+			<rse-price>175</rse-price>
+		</rse-stock>
+		<rse-stock>
+			<rse-symbol>ZM</rse-symbol>
+			<rse-company-name>Zoom</rse-company-name>
+			<rse-price>25</rse-price>
+		</rse-stock>
+	</rse-stocks>
+	<rse-holdings>
+		<rse-item symbol="ZM" quantity="100"/>
+		<rse-item symbol="MSFT" quantity="200"/>
+	</rse-holdings>
+</rizpa-stock-exchange-descriptor>

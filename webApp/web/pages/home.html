@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RiSE</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="resources/jquery-2.0.3.min.js"></script>
+    <script src="resources/utils.js"></script>
+    <script src="home.js"></script>
+</head>
+<header>
+    <div class="panel info-header" id="title-header">
+        <p class="title">Welcome To RiSE </p>
+        <p class="sub-title">hello <b id="username-field"></b>! What would you like to do today?</p>
+    </div>
+</header>
+<body>
+
+    <div class="lower panel mainContainer">
+        <div id="role-options" class="left inner panel">
+
+        </div>
+        <div id="main-info-container" class="right inner panel">
+            <section class="upper inner panel tableContainer">
+                <header class="info-header">
+                    Online Users
+                </header>
+                <table class="info-table" id="users_table">
+                        <tr class="info-table-row">
+                            <th class="table-column-header">
+                                <span class="table-column-header-text">username</span>
+                            </th>
+                            <th class="table-column-header">
+                                <span class="table-column-header-text">Occupation</span>
+                            </th>
+                        </tr>
+                    <tbody id="user-table" class="table-data">
+                    </tbody>
+                </table>
+            </section>
+            <section class="lower inner panel tableContainer">
+                <header class="info-header">
+                    Stocks Information
+                </header>
+                <table class="info-table" class="table-data">
+                    <tr class="info-table-row">
+                        <th class="table-column-header">
+                            <span class="table-column-header-text">Symbol</span>
+                        </th>
+                        <th class="table-column-header">
+                            <span class="table-column-header-text">Corporation</span>
+                        </th>
+                        <th class="table-column-header">
+                            <span class="table-column-header-text">Curr. Price</span>
+                        </th>
+                        <th class="table-column-header">
+                            <span class="table-column-header-text">Cycle</span>
+                        </th>
+                    </tr>
+                    <tbody id="stock-table">
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
