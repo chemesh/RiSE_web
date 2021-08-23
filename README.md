@@ -44,6 +44,7 @@ System Information:
 
 This Module houses 4 main packages:
 - Data – stores 2 sub-packages:
+
     o data.stock –
         This package holds the Stock.class which is a data frame for information used in the system for the concept “stock”, as you familiar with. Each stock holds 3 respective         lists of trade orders and completed transactions made in “RiSE”.
         The second class in this package is StockList.class which is an encapsulating, self-managing class for a List data structure of Stock.class objects.
