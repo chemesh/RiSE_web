@@ -1,0 +1,42 @@
+
+body {
+    background: url("resources/main_background3.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: #a09e9e;
+    color-rendering: auto;
+    text-align: center;
+}
+
+.starter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login-link {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+
+#login-form {
+    background-color: darkgrey;
+    align-self: center;
+    align-items: center;
+    alignment: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+div{
+    display: table-row;
+}
+
+span{
+    display: table-cell;
+}
+

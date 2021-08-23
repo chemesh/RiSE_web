@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>RiSE</title>
+    <script src="../resources/jquery-2.0.3.min.js"></script>
+    <script src="../resources/utils.js"></script>
+    <link rel="stylesheet" href="../home.css">
+</head>
+<header>
+    <div class="panel info-header" id="title-header">
+        <p class="title">RiSE</p>
+    <p class="sub-title"><b id="user-name-label"></b>'s Account</p>
+    </div>
+</header>
+
+<body>
+<div class="mainContainer">
+    <div class="creditBalance">
+        <p class="info-header">Account Credit Balance: <label id="credit-balance">0</label></p>
+        <details class="info-header">
+            <summary>Charge money to credit balance</summary>
+            <form id="charge-credit" action="account/charge" method="post">
+                <div class="detail-form">
+                    <label>Amount to charge: </label>
+                    <input type="number" name="amount" id="amount" min="0">
+                </div>
+                    <input type="submit" id="charge-button" value="charge">
+            </form>
+        </details>
+    </div>
+    <div class="accountActivity">
+        <h2 class="info-header">Account Activity</h2>
+        <div id="log-area">
+            <ol id="account-activity">
+            </ol>
+        </div>
+    </div>
+</div>
+<script src="account.js"></script>
+</body>
+</html>

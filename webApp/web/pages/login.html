@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>RiSE</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="resources/jquery-2.0.3.min.js"></script>
+
+</head>
+<body>
+    <h1>Log In</h1>
+    <form id=login-form action="login" method="post" >
+        <div>
+            <span>
+                <label>Username:
+                <input type="text" id="user" name="username">
+            </label></span>
+        </div>
+        <div>
+            <span>
+                  <label for="role">Choose a Role:</label>
+                    <select name="role" id="role">
+                    <option value="trader">Trader</option>
+                    <option value="admin">Admin</option>
+                  </select>
+            </span>
+        </div>
+        <p>
+            <span>
+                <input type="submit" value="Sign in">
+            </span>
+        </p>
+        <div id="error-placeholder" class="alert-danger" role="alert"></div>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
+
