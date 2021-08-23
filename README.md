@@ -45,14 +45,14 @@ System Information:
 This Module houses 4 main packages:
 - Data – stores 2 sub-packages:
     o data.stock –
-    This package holds the Stock.class which is a data frame for information used in the system for the concept “stock”, as you familiar with. Each stock holds 3 respective lists of trade orders and completed transactions made in “RiSE”.
-    The second class in this package is StockList.class which is an encapsulating, self-managing class for a List data structure of Stock.class objects.
+        This package holds the Stock.class which is a data frame for information used in the system for the concept “stock”, as you familiar with. Each stock holds 3 respective         lists of trade orders and completed transactions made in “RiSE”.
+        The second class in this package is StockList.class which is an encapsulating, self-managing class for a List data structure of Stock.class objects.
     
     o data.tradeOrder – stores additional 2 sub packages:
         ▪ data.tradeOrder.order – 
-        this sub package you can find the abstract class Order.class which is the frame of a trade order made in the system. The other classes inside are inherited classes from Order.class, each for its designed use.
+            this sub package you can find the abstract class Order.class which is the frame of a trade order made in the system. The other classes inside are inherited classes               from Order.class, each for its designed use.
         ▪ data.tradeOrder.list –
-        A sub Package which holds classes for managing data structures of “orders” and “completed trades” , in a similar fashion to StockList.class explained earlier.
+            A sub Package which holds classes for managing data structures of “orders” and “completed trades” , in a similar fashion to StockList.class explained earlier.
 
 - engine :
 This package holds the backbone of the program which is the Engine interface, designed to answer the overall needs of the user.
